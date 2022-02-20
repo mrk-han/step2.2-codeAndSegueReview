@@ -52,3 +52,9 @@ Again, this only sets up the Segue and hides the instantiation of the new ViewCo
 We need to override the func prepare(for segue: UIStoryboardSegue, sender: Any?) method
 
 We then cast `DiceViewController` as the `segue.destination` and then can pass the data to the ViewController that presents the dice.
+
+## If more than one segue attached to a ViewController
+
+<img width="1030" alt="image" src="https://user-images.githubusercontent.com/22263679/154866971-8b50fed9-c03a-4361-9ab3-3369415c0a46.png">
+
+Use `if segue.identifier == "nameOfSegue" {` when we have more than one segue attached to a single ViewController
