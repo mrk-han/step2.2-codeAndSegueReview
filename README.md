@@ -20,7 +20,7 @@ Exploring segue from storyboard to code and presenting view controllers
 }
 ```
 
-## Code + Storyboard Segue
+## Code + Segue
 
 <img width="702" alt="image" src="https://user-images.githubusercontent.com/22263679/154866111-e6f563e8-6e99-4d5c-a7f9-556804d65686.png">
 <img width="213" alt="image" src="https://user-images.githubusercontent.com/22263679/154866137-ce8253d9-1eff-4d44-96ad-efe226b1d152.png">
