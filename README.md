@@ -29,3 +29,10 @@ Trigger segue with @IBAction func rollDice() on button with code -> `self.perfor
 ## Segue (No Code)
 
 <img width="1177" alt="image" src="https://user-images.githubusercontent.com/22263679/154866263-11cb0c9b-fafb-493e-9203-4e9bbcbcde9f.png">
+
+
+Notice that:
+
+In the RollViewController file, the rollTheDice method is empty.
+In the Storyboard file, a segue connects the rollTheDice Button directly to the DiceViewController.
+In the attributes inspector, the segue is given the identifier, “rollDice”.
